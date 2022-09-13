@@ -38,6 +38,7 @@ Dependencies :
 * [Material Icons](https://mui.com/material-ui/icons/)
 * [swiperJS](https://swiperjs.com/)
 * [javascript-color-gradient](https://www.npmjs.com/package/javascript-color-gradient)
+* [firebase](https://firebase.google.com/)
 
 API : 
 
