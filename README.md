@@ -75,7 +75,7 @@ API :
 [x] http requests
 [x] time display converter function
 
-# Swiper
+### Swiper
 
 ```js
 <Swiper
@@ -113,7 +113,7 @@ API :
 </Swiper>
 ```
 
-# Rating adaptative color
+### Rating adaptative color
 
 ```js
 import React from 'react'
@@ -143,7 +143,7 @@ function ColoredRating({ rating }) {
 export default ColoredRating
 ```
 
-# Time Display Converter Function
+### Time Display Converter Function
 
 ```js
 function timeConvert(time) {
