@@ -70,6 +70,7 @@ API :
 
 - [x] Responsive UI
 - [x] Swiper
+- [x] skeleton display while data loading
 - [x] Modal for data details
 - [x] Rating adaptative color
 - [x] http requests
@@ -111,6 +112,47 @@ API :
 >       
     <SwiperSlide ></SwiperSlide>        
 </Swiper>
+```
+
+### Skeleton Display While Data Loading
+#### (using ReactQuery and Material UI skeletons)
+
+```js
+import { Box, Container } from '@mui/material'
+import { useQuery } from '@tanstack/react-query'
+import React from 'react'
+import Carousel from '../components/shared/Carousel'
+import LandingHome from '../components/home/LandingHome'
+import LandingCarousel from '../components/shared/LandingTvAndMovies'
+import CarouselSkeleton from '../components/skeletons/CarouselSkeleton'
+import LandingCarouselSkeleton from '../components/skeletons/LandingCarouselSkeleton'
+import LandingHomeSkeleton from '../components/skeletons/LandingHomeSkeleton'
+import tmdbService from '../services/tmdb.service'
+
+function Home() {
+    const {
+        isLoading: isLoadingPopMovie,
+        isError: isErrorPopMovie,
+        error: errorPopMovie,
+        data: dataPopMovie
+        } = useQuery(['popularMovies'], () => tmdbService.getPopularMovies());
+    const {
+        isLoading: isLoadingNowMovie,
+        isError: isErrorNowMovie,
+        error: errorNowMovie,
+        data: dataNowMovie
+        } = useQuery(['nowPlayingMovies'], () => tmdbService.getNowPlayingMovies());
+    return (
+        <Container maxWidth={false}>
+            {isLoadingPopTv && <LandingHomeSkeleton />}
+            {dataPopTv && <LandingHome type={'tv'} title={'Popular Tv Shows'} data={dataPopTv.data.results} />}
+            {isLoadingPopMovie && <CarouselSkeleton />}
+            {dataPopMovie && <Carousel type={'movie'} title={'Popular Movies'} data={dataPopMovie.data.results} />}
+        </Container>
+    )
+}
+
+export default Home
 ```
 
 ### Rating adaptative color
