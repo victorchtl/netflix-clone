@@ -47,6 +47,7 @@ API :
 <!-- APP ARCHITECTURE -->
 ## Architecture
 
+  ```bash
 ├── src
 │   ├── assets
 │   │   ├── images
@@ -60,6 +61,7 @@ API :
 │   ├── features
 │   ├── pages
 │   ├── services
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
