@@ -33,15 +33,15 @@ A front end netflix clone made using the next technologies and data from TheMovi
 
 Dependencies :
 
-* ReactJS
-* React Router
-* Redux
-* ReactQuery
-* Axios
-* Material UI
-* Material Icons
-* swiper
-* javascript-color-gradient
+* [ReactJS](https://fr.reactjs.org/)
+* [React Router](https://reactrouter.com/en/v6.3.0)
+* [Redux](https://redux.js.org/)
+* [ReactQuery](https://tanstack.com/query/v4)
+* [Axios](https://axios-http.com/fr/)
+* [Material UI](https://mui.com/)
+* [Material Icons](https://mui.com/material-ui/icons/)
+* [swiperJS](https://swiperjs.com/)
+* [javascript-color-gradient](https://www.npmjs.com/package/javascript-color-gradient)
 
 API : 
 
@@ -204,9 +204,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Victor Chatel - victor.chatel@gmail.com.com
+Victor Chatel - victor.chatel@gmail.com
 
-Project Link: [https://github.com/victorchtl/netflix-clone](https://github.com/victorchtl/netflix-clone)
+Project Link: [github.com/victorchtl/netflix-clone](https://github.com/victorchtl/netflix-clone)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
