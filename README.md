@@ -45,7 +45,7 @@ Dependencies :
 
 API : 
 
-* [https://developers.themoviedb.org/3/getting-started/introduction](TheMovieDataBase)
+* [TheMovieDataBase](https://developers.themoviedb.org/3/getting-started/introduction)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
