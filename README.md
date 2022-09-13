@@ -65,12 +65,98 @@ API :
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+<!-- FEATURES -->
 ## Features
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+[x] Responsive UI
+[x] Swiper
+[x] Modal for data details
+[x] Rating adaptative color
+[x] http requests
+[x] time display converter function
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+# Swiper
+
+```js
+<Swiper
+    slidesPerView={3}
+    spaceBetween={10}
+    slidesPerGroup={3}
+    loop={true}
+    navigation={true}
+    modules={[Navigation]}
+    className="mySwiper"
+    breakpoints={{
+        600: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            slidesPerGroup: 3
+        },
+        900: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+            slidesPerGroup: 4
+        },
+        1200: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+            slidesPerGroup: 5
+        },
+        1536: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            slidesPerGroup: 6
+        }
+    }}
+>       
+    <SwiperSlide ></SwiperSlide>        
+</Swiper>
+```
+
+# Rating adaptative color
+
+```js
+import React from 'react'
+import Gradient from "javascript-color-gradient";
+import CircularProgress from '@mui/material/CircularProgress';
+
+function ColoredRating({ rating }) {
+
+    const colorCellFromValue = (rating) => {
+        return new Gradient()
+            .setColorGradient('#f44336', '#ff9800', '#4caf50')
+            .setMidpoint(98)
+            .getColor((rating * 10) + 1);
+    };
+
+    return (
+            <CircularProgress
+                variant="determinate"
+                value={rating * 10}
+                sx={{ 
+                    color: colorCellFromValue(rating),
+                }}
+            />
+    )
+}
+
+export default ColoredRating
+```
+
+# Time Display Converter Function
+
+```js
+function timeConvert(time) {
+    const num = time;
+    const hours = (num / 60);
+    const rhours = Math.floor(hours);
+    const minutes = (hours - rhours) * 60;
+    const rminutes = Math.round(minutes);
+    return rhours + "h " + rminutes + "min";
+}
+```
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
