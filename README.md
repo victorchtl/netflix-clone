@@ -68,12 +68,12 @@ API :
 <!-- FEATURES -->
 ## Features
 
-[x] Responsive UI
-[x] Swiper
-[x] Modal for data details
-[x] Rating adaptative color
-[x] http requests
-[x] time display converter function
+- [x] Responsive UI
+- [x] Swiper
+- [x] Modal for data details
+- [x] Rating adaptative color
+- [x] http requests
+- [x] time display converter function
 
 ### Swiper
 
