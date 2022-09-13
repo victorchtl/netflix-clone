@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Netflix Clone (https://example.com)
+A front end netflix clone made using the next technologies and data from TheMovieDataBase API.
 
 Dependencies :
 
@@ -43,14 +43,18 @@ Dependencies :
 * swiper
 * javascript-color-gradient
 
+API : 
+
+* [https://developers.themoviedb.org/3/getting-started/introduction](TheMovieDataBase)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+<details>
+  <summary>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</summary>
 ## Available Scripts
 
 In the project directory, you can run:
@@ -117,6 +121,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,9 +204,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Victor Chatel - victor.chatel@gmail.com.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/victorchtl/netflix-clone](https://github.com/victorchtl/netflix-clone)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
