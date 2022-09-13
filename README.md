@@ -23,6 +23,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+DEMO : [https://netflix-clone-6f7dc.web.app/](https://netflix-clone-6f7dc.web.app/)
+
 A front end netflix clone made using the next technologies and data from TheMovieDataBase API.
 
 Dependencies :
